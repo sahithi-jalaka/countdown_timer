@@ -1,70 +1,63 @@
-# Digital Clock and Countdown Timer
+# Countdown Timer ⏳
 
-## 📌 Project Description
+## 📌 About the Project
 
-This project is developed using **Python and Tkinter**. It displays a digital clock or a countdown timer through a graphical user interface (GUI).
+The Countdown Timer is a simple Python application developed using Tkinter. It displays the remaining time until a specified target date and time in a graphical window.
 
-The digital clock displays the current system time in hours, minutes, and seconds. The countdown timer displays the remaining time until a specified date and time.
+The timer updates every second and uses a black background with white text to provide a clear and simple interface.
 
 ## ✨ Features
 
-- Displays time in a graphical window.
-- Uses a black background with white text.
-- Supports fullscreen mode for the digital clock.
-- Updates the displayed time automatically.
-- Provides a countdown to a target date and time.
-- Uses Tkinter for the graphical user interface.
+- Displays the remaining time until a target date and time.
+- Updates automatically every second.
+- Simple graphical user interface.
+- Black background with white text.
+- Displays a message when the countdown finishes.
 
 ## 🛠️ Technologies Used
 
-- **Python 3**
-- **Tkinter** – for creating the GUI.
-- **Datetime** – for handling dates and time.
+- Python 3
+- Tkinter
+- Datetime module
 
-## 📂 Project Files
+## 📋 Requirements
 
-- `clock.py` – Digital clock implementation.
-- Other Python files – Additional Python practice programs included in this repository.
+- Python 3
+- Tkinter library
 
-## ⚙️ Requirements
+## 🚀 How to Run
 
-- Python 3 installed on your system.
-- Tkinter installed and available for Python.
+**1. Clone the repository**
 
-## ▶️ How to Run
+```bash
+git clone https://github.com/sahithi-jalaka/countdown_timer.git
+```
 
-1. Clone the repository:
+**2. Open the project directory**
 
-   ```bash
-   git clone https://github.com/sahithi-jalaka/Digital_clock.git
-   ```
+```bash
+cd countdown_timer
+```
 
-2. Navigate to the project directory:
+**3. Run the application**
 
-   ```bash
-   cd Digital_clock
-   ```
-
-3. Run the digital clock:
-
-   ```bash
-   python3 clock.py
-   ```
+```bash
+python3 clock.py
+```
 
 ## 🎯 Learning Outcomes
 
 - Understanding Python GUI programming.
-- Learning to use Tkinter widgets.
-- Working with Python's `datetime` module.
-- Updating GUI elements at regular intervals.
-- Building a simple desktop application.
+- Working with date and time calculations.
+- Using Tkinter widgets to display information.
+- Updating the interface at regular intervals.
 
-## 🚀 Future Enhancements
+## 🔮 Future Enhancements
 
-- Add alarms and sound notifications.
-- Allow users to customize colors and fonts.
-- Add a stopwatch feature.
-- Allow users to set a custom countdown date and time.
+- Allow users to select a custom target date and time.
+- Add an alarm sound when the countdown finishes.
+- Add start, pause, and reset buttons.
+- Improve the interface with customizable colors and fonts.
 
 ## 👩‍💻 Author
 
@@ -72,5 +65,4 @@ The digital clock displays the current system time in hours, minutes, and second
 
 ## 📄 License
 
-This project is available for educational and learning purposes.
-# countdown_timer
+This project is intended for educational purposes.
